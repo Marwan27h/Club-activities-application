@@ -1,0 +1,25 @@
+# Ignore Node.js modules and dependencies
+node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+out/
+*.log
+
+# Ignore environment-specific configuration files (customize this)
+.env
+config.js
+
+# Ignore user-specific or IDE files (customize this)
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore generated files (customize this)
+generated/
+docs/
+
+# Ignore dependency lock files (customize this)
+yarn.lock
+package-lock.json
